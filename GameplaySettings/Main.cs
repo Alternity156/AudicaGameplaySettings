@@ -7,11 +7,11 @@ namespace GameplaySettings
 {
     public static class BuildInfo
     {
-        public const string Name = "TestMod"; // Name of the Mod.  (MUST BE SET)
-        public const string Author = null; // Author of the Mod.  (Set as null if none)
+        public const string Name = "Gameplay Settings"; // Name of the Mod.  (MUST BE SET)
+        public const string Author = "Alternity"; // Author of the Mod.  (Set as null if none)
         public const string Company = null; // Company that made the Mod.  (Set as null if none)
         public const string Version = "1.0.0"; // Version of the Mod.  (MUST BE SET)
-        public const string DownloadLink = null; // Download Link for the Mod.  (Set as null if none)
+        public const string DownloadLink = "https://github.com/Alternity156/AudicaGameplaySettings"; // Download Link for the Mod.  (Set as null if none)
     }
 
     public class GameplaySettings : MelonMod
